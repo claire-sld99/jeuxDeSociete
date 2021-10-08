@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li{
+    list-style: none;
+    background-color: #EBB878;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li:hover{
+    background-color: #D49061;
+}
