@@ -1,3 +1,28 @@
+let calcul = "";
+
+function ajouterAuCalcul(caractere) {
+
+calcul += caractere
+
+}
+
+
+
+ajouterAuCalcul(8);
+
+ajouterAuCalcul(+);
+
+ajouterAuCalcul(4);
+
+
+
+function calculer() {
+
+console.log();
+
+}
+
+
 let operateur;
 
 let remplirInputOperateur = () => {
