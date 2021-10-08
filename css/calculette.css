@@ -1,3 +1,43 @@
 h1{
     text-align: center;
 }
+
+section{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+section div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+
+section div button{
+    padding: 10px;
+    background-color:#EBB878;
+    color: #000;
+    border-radius: 10px;
+    width: 24%;
+    border: #D49061;
+    font-size: 20px;
+}
+
+section div button:hover{
+    background-color:#D49061;
+}
+
+section div #zero{
+    width: 74%;
+}
+
+section div .operateur{
+    font-weight: bold; 
+    font-size: 25px;   
+}
+
+
+section div #egal{
+    width: 100%;
+}
