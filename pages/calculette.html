@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <script src="../js/calculette.js"></script>
 </head>
 <body>
     
@@ -37,44 +39,44 @@
 
     <section>
         <div>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button class="operateur">+</button>
+            <input type="button" value="1">
+            <input type="button" value="2">
+            <input type="button" value="3">
+            <input type="button" class="operateur" value="+" id="opePlus" onclick="remplirInputOperateur()">
         </div>
         <div>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button class="operateur">-</button>
+            <input type="button" value="4">
+            <input type="button" value="5">
+            <input type="button" value="6">
+            <input type="button" class="operateur" value="-" id="opeMoins" onclick="remplirInputOperateur()">
         </div>
 
         <div>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button class="operateur">*</button>
+            <input type="button" value="7">
+            <input type="button" value="8">
+            <input type="button" value="9">
+            <input type="button" class="operateur" value="*" id="opeMultiple" onclick="remplirInputOperateur()">
         </div>
         
         <div>
-            <button id="zero">0</button>
-            <button class="operateur">/</button>
+            <input type="button" value="0" id="zero">
+            <input type="button" class="operateur" value="/" id="opeDivise" onclick="remplirInputOperateur()">
         </div>
 
         <div>
-            <button id="egal"  class="operateur">=</button>
+            <input type="button" id="egal" class="operateur" value="=" id="opeEgal" onclick="remplirInputOperateur()">
         </div>
     </section>
 
     <section>
         <div>
-            <input type="text" placeholder="Nombre 1" disabled>
-            <input type="text" placeholder="Opérateur" disabled>
-            <input type="text" placeholder="Nombre 2" disabled>
+            <input type="text" class="text" placeholder="Nombre 1" disabled>
+            <input type="text" class="text" placeholder="Opérateur" id="inputOpe" disabled>
+            <input type="text" class="text" placeholder="Nombre 2" disabled>
         </div>
 
         <div>
-            <input type="text" placeholder="Résultat" disabled>
+            <input type="text" class="text" placeholder="Résultat" disabled>
         </div>
     </section>
 

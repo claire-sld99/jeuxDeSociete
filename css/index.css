@@ -1,3 +1,37 @@
 h1{
     text-align: center;
 }
+
+div{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+div a button{
+    background-color: #EBB878;
+    border-radius: 15px;
+    padding: 10px;
+    border: 0;
+    font-size: 25px;
+    
+}
+
+div a:hover button{
+    background-color: #D49061;
+}
+
+div a {
+    text-align: center;
+    width: 47%;
+    text-decoration: none;
+    color: #000;
+    background-color: #EBB878;
+    border-radius: 15px;
+    padding: 10px;
+    border: 3px solid #D49061;
+}
+
+div a:hover{
+    background-color: #D49061;
+}

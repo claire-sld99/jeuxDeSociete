@@ -14,7 +14,7 @@ section div{
     margin-bottom: 15px;
 }
 
-section div button{
+section div input{
     padding: 10px;
     background-color:#EBB878;
     color: #000;
@@ -24,9 +24,14 @@ section div button{
     font-size: 20px;
 }
 
-section div button:hover{
+section div input:hover{
     background-color:#D49061;
 }
+
+section div .text:hover{
+    background-color:#EBB878;
+}
+
 
 section div #zero{
     width: 74%;

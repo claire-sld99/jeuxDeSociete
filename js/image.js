@@ -21,7 +21,7 @@ let tourner = () => {
     // console.log(tempImg3);
     // console.log(tempImg4);
 
-    //console.log("Ok");
+    console.log("Ok");
     image2.src="../img/image1.jpg";
     image3.src= tempImg2;
     image4.src= tempImg3;
